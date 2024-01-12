@@ -1,0 +1,24 @@
+
+.experience-heading {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.experience-org-name,
+.experience-start-end {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.experience-start-end {
+  font-style: italic;
+  margin-left: 4px;
+}
+.experience-job-description {
+  font-size: 12px; /* Adjust the font size as needed */
+  margin-top: 8px; /* Add margin to separate it from the years */
+  text-align: left; /* Align the job description text */
+  color: #333; /* Adjust the color as needed */
+}

@@ -1,0 +1,69 @@
+.MuiPaper-root.MuiPaper-elevation.personal-info-paper {
+  width: 75%;
+  padding: 40px;
+  margin-right: 0px;
+  height: fit-content;
+}
+
+.MuiButtonBase-root.MuiButton-root.change-profile-photo-btn {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.personal-info-form-fields {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.MuiDivider-root.personal-details-divider {
+  border-bottom-width: 2px;
+  margin: 20px 0px;
+}
+
+/* Add the following styles for the profile photo and social profiles */
+.template-img-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.template-social-profiles {
+  display: flex;
+  gap: 10px; /* Adjust the gap between icons if needed */
+  margin-top: 10px; /* Add margin to separate social profiles from the user details */
+}
+
+.template-social-profiles p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.template-social-profiles p svg {
+  margin-right: 5px; /* Adjust the margin between icon and text if needed */
+}
+
+@media screen and (max-width: 1010px) {
+  .MuiPaper-root.MuiPaper-elevation.personal-info-paper {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1300px) {
+  .MuiPaper-root.MuiPaper-elevation.personal-info-paper {
+    width: 90%;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .personal-info-form-fields {
+    grid-template-columns: 1fr;
+  }
+}
