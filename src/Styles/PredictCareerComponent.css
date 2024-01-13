@@ -1,0 +1,79 @@
+/* Styles for larger screens */
+.form-field {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+
+
+
+.form-label{
+    background-color: white;
+}
+
+.heading {
+    color:rgb(0, 108, 216);
+    font-size:30px;
+    text-align:center;
+}
+
+.para {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.para-2{
+    font-size: 20px;
+    color:rgb(0, 128, 255);
+    text-align: justify;
+
+}
+
+.desc-text{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.jobs {
+    margin-bottom: 10px;
+}
+
+/* Media query for medium-sized screens */
+@media only screen and (max-width: 768px) {
+    .form-field {
+        width: 70%;
+    }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 480px) {
+    .form-field {
+        width: 90%;
+    }
+    .desc-text {
+        width: 90%;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .para{
+        font-size: 10px;
+    }
+    .para2{
+        font-size: 15px;
+    }
+}

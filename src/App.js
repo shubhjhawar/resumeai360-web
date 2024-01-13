@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import DetailsFilling from "./Pages/DetailsFilling";
 import CheckSelectedId from "./Components/CheckSelectedId";
+import PredictCareer from "./Pages/PredictCareer";
 import AboutUs from "./Pages/AboutUs";
 import MyResumes from "./Pages/MyResumes";
 import Notfound from "./Components/Notfound";
@@ -24,6 +25,7 @@ const App = () => {
             </CheckSelectedId>
           }
         />
+        <Route exact path="/predict" element={<PredictCareer />} />
         <Route exact path="/my/resumes" element={<MyResumes />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         {/* If someone attempts to navigate to a page that does not exist, they will be redirected to a 404 page. */}

@@ -52,6 +52,9 @@ function Navbar(props) {
           paddingLeft: "20px",
           flexDirection: "column",
         }}>
+        <NavLink className="nav-link" to="/predict" color="inherit">
+          Predict Career
+        </NavLink>
         <NavLink className="nav-link" to="/" color="inherit">
           Resume Templates
         </NavLink>
@@ -101,6 +104,12 @@ function Navbar(props) {
                 </NavLink>
               </Typography>
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                <NavLink className="nav-link" to="/predict" color="inherit">
+                  Predict Career
+                </NavLink>
+                <div className="hover-content">
+                  <p>Find your dream job in ONE Click</p>
+                </div>
                 <NavLink to="/" className="nav-link" color="inherit">
                   Resume Templates
                 </NavLink>
