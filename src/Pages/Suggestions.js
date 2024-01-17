@@ -33,7 +33,7 @@ const Suggestions = () => {
         try{
             setDialogOpen(true);
             setDataAi(null);
-            const response = await fetch('http://127.0.0.1:5000/suggest', {
+            const response = await fetch('https://resumeai360-backend.onrender.com/suggest', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
