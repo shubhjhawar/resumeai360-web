@@ -1,0 +1,103 @@
+/* Styles for larger screens */
+.aiform-field {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.aiform-label{
+    background-color: white;
+}
+
+.aiheading {
+    color:rgb(0, 108, 216);
+    font-size:30px;
+    text-align:center;
+}
+
+.aipara-2{
+    font-size: 20px;
+    color:rgb(0, 128, 255);
+    text-align: justify;
+
+}
+
+.aidesc-text{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aidialog-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.aicareerfield {
+    width: 300px !important;
+    margin-bottom: 20px !important;
+}
+
+.aiform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap:10px;
+}
+
+.aisuggestionheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color:rgb(0, 128, 255);
+    text-decoration: underline;
+}
+
+.aisuggestionpara {
+    background-color: rgb(252, 248, 248);
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+.aisuggestionfooter{
+    color:rgb(26, 50, 208);
+    text-align: center;
+}
+
+/* Media query for medium-sized screens */
+@media only screen and (max-width: 768px) {
+    .aiform-field {
+        width: 70%;
+    }
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 480px) {
+    .aiform-field {
+        width: 90%;
+    }
+    .aidesc-text {
+        width: 90%;
+    }
+    .aiheading {
+        font-size: 20px;
+    }
+    .aipara-2{
+        font-size: 15px;
+    }
+    .aisuggestionfooter{
+        font-size: 20px;
+    }
+}

@@ -52,6 +52,9 @@ function Navbar(props) {
           paddingLeft: "20px",
           flexDirection: "column",
         }}>
+        <NavLink className="nav-link" to="/suggest" color="inherit">
+          AI Suggestions
+        </NavLink>
         <NavLink className="nav-link" to="/predict" color="inherit">
           Predict Career
         </NavLink>
@@ -104,6 +107,9 @@ function Navbar(props) {
                 </NavLink>
               </Typography>
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                <NavLink className="nav-link" to="/suggest" color="inherit">
+                  AI Suggestions
+                </NavLink>
                 <NavLink className="nav-link" to="/predict" color="inherit">
                   Predict Career
                 </NavLink>
